@@ -1,0 +1,27 @@
+Testing
+-------
+
+We have a neat function that adds two numbers together,
+using complex math.
+
+First, let's import it::
+
+    >>> from arithmetic import adder
+
+Then, let's try it out::
+
+    >>> adder(1, 1)
+    2
+
+See? It works!
+
+What if we used a negative number? ::
+
+    >>> adder(1, -1)
+    0
+
+BTW, this text format is called "restructuredText" and is
+a nice way to get prettily-formatted text messages to
+turn into PDFs, HTML, epubs, etc. That's unrelated to
+the topic of testing, though.
+
